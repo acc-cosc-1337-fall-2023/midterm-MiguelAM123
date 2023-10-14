@@ -1,7 +1,8 @@
 #include "question1.h"
 #include <iostream>
 
-using std:: cin; using std:: cout;
+using std:: cin; 
+using std:: cout;
 
 
 int pointsEarned;

@@ -19,7 +19,8 @@ int main()
 
         cout << "Points Earned: " << pointsEarned << "\n"; 
 
-        cout << "Would you like to enter another number? ";
+        cout << "Would you like to enter another number? " << "\n";
+        cout << "Press Y or y to continue: " << "\n";
         cin >> again;       
         } while (again == 'n' || again == 'N');
         

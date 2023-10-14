@@ -2,9 +2,7 @@
 #include "catch.hpp"
 #include "question1.h"
 
-TEST_CASE("Verify Test Configuration", "verification") {
-	REQUIRE(true == true);
-}
+
 
 TEST_CASE("Return appropiate amount for widgets sold")
 {
