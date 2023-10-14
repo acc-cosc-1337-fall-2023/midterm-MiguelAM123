@@ -6,7 +6,12 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
+TEST_CASE("Convert celsius to farenheit")
 {
-	REQUIRE(test_config() == true);
+	REQUIRE(getFarenheit(37) == 98.6);
+	REQUIRE(getFarenheit(25) == 77);
+	REQUIRE(getFarenheit(0) == 32);
+
 }
+
+
