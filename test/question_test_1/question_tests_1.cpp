@@ -6,7 +6,11 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
+TEST_CASE("Return appropiate amount for widgets sold")
 {
-	REQUIRE(test_config() == true);
+	REQUIRE(getEarnedPoints(3) == 3);
+	REQUIRE(getEarnedPoints(9) == 45);
+	REQUIRE(getEarnedPoints(11) == 110);
+	REQUIRE(getEarnedPoints(20) == 300);
 }
+
